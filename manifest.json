@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Wild West Gold Hack v8.1 (PC)",
+  "description": "Hack for the Wild West Gold game https://t.me/Ganymed_Hack",
+  "version": "8.1",
+
+  "content_scripts":[{
+      "matches": ["http://*/*","https://*/*"],
+      "run_at": "document_end",
+      "js": ["jquery.min.js","popup.js"],
+      "all_frames": true
+    }]
+}
